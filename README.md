@@ -16,14 +16,13 @@
     echo $_SERVER['HTTP_HOST'];
 ?>
  ```
- 
-![image-1](https://gitee.com/weujie/picture/raw/master/2022-2-23/1645623852913-image.png)
+ ![image-1](https://gitee.com/weujie/picture/raw/master/2022-2-23/1645623852913-image.png)
 
  
  
  
  ## 效果展示
  
-![image-1](https://gitee.com/weujie/picture/raw/master/2022-2-23/1645624011409-image.png)
+![image-2](https://gitee.com/weujie/picture/raw/master/2022-2-23/1645624011409-image.png)
 
-![image-2](https://gitee.com/weujie/picture/raw/master/2022-2-23/1645623960395-image.png)
+![image-3](https://gitee.com/weujie/picture/raw/master/2022-2-23/1645623960395-image.png)
