@@ -17,7 +17,8 @@ public class HostAttackScanner {
         List<String> headers = requestInfo.getHeaders();
         int bodyBegin = requestInfo.getBodyOffset();
         byte[] body = (new String(messagesInfo.getRequest())).substring(bodyBegin).getBytes(StandardCharsets.UTF_8);
-        headers.remove("Host: " + messagesInfo.getHttpService().getHost());
+        System.out.println(headers);
+        headers.removeIf(header ->  header.startsWith("Host:"));
         headers.add(1, "Host: " + evalHost);
         return helpers.buildHttpMessage(headers, body);
     }
